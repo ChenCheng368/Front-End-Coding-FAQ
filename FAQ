@@ -1,5 +1,16 @@
 1. Q: <button> or <div>?
    A: Divitis Problem : https://csscreator.com/divitis
+   In general you want to use <a> for navigation and <button> for some action that takes place on that screen.
+   a <button> tag does not remove selection, but div does.
    
-2. Q:
+   
+2. Q:css outline vs border
    A:
+   1)The outline property doesn't take up space because it always is placed on top of the box of the element.
+   When an outline is placed around an element, it doesn't have any effect on how that element is laid out on the page. 
+   It doesn't change the element's size or position.This is not true of a border.
+   2)The outline-color property accepts the term "invert" which makes the outline color the inverse of the current background. 
+   This allows you to highlight elements on dynamic Web pages without needing to know what colors are used.
+   3)border has properties to style each side with border-top:, border-left: etc. 
+   outline can't do this. There's no outline-top: etc. It's all or nothing.
+   
